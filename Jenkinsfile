@@ -6,6 +6,7 @@ pipeline{
         stage('demo'){
             steps{
                 hello ("monisha")
+                hello ("oscar")
                 script{
                 calculator.add(10,20)
                 calculator.mult(10,20)
