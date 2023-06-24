@@ -6,6 +6,10 @@ pipeline{
         stage('demo'){
             steps{
                 hello ("monisha")
+                script{
+                calculator.add(10,20)
+                calculator.mul(10,20)
+                }
             }
         }
     }
